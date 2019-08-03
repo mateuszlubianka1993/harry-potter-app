@@ -1,26 +1,27 @@
 import React from 'react';
+import {NavLink} from 'react-router-dom';
 
 const NavBar = () => {
     return(
-        <nav id="main-nav" class="navbar fixed-top navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#">H. P. World</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        <nav id="main-nav" className="navbar fixed-top navbar-expand-lg navbar-light">
+            <NavLink className="navbar-brand" href="#">H. P. World</NavLink>
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent" >
-                <ul class="navbar-nav ml-auto w-100 justify-content-end">
+            <div className="collapse navbar-collapse" id="navbarSupportedContent" >
+                <ul className="navbar-nav ml-auto w-100 justify-content-end">
                     <li class="nav-item">
-                        <a class="nav-link" >Houses</a>
+                        <NavLink to="/houses" className="nav-link" >Houses</NavLink>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" >Spels</a>
+                    <li className="nav-item">
+                        <NavLink to="/spells" className="nav-link" >Spells</NavLink>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" >Characters</a>
+                    <li className="nav-item">
+                        <NavLink to="/characters" className="nav-link" >Characters</NavLink>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" >Home</a>
+                    <li className="nav-item">
+                        <NavLink to="/" className="nav-link" >Home</NavLink>
                     </li>
                 </ul>
             </div>
