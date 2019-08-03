@@ -1,8 +1,9 @@
 import React from 'react';
+import '../styles/Header.css';
 
 const Header = () => {
     return(
-        <div>
+        <div className="header-container">
             <h1>Harry Potter World</h1>
         </div>
     );
