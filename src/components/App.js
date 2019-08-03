@@ -4,6 +4,7 @@ import Header from './Header';
 import Spells from './Spells';
 import Houses from './Houses';
 import Characters from './Characters';
+import Home from './Home';
 
 class App extends React.Component {
     render() {
@@ -12,6 +13,7 @@ class App extends React.Component {
                 <BrowserRouter>
                     <div>
                         <Header />
+                        <Route path="/" exact component={Home} />
                         <Route path="/spells" component={Spells} />
                         <Route path="/houses" component={Houses} />
                         <Route path="/characters" component={Characters} />
