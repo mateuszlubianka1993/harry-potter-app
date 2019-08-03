@@ -1,27 +1,27 @@
 import React from 'react';
-import {NavLink} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 const NavBar = () => {
     return(
         <nav id="main-nav" className="navbar fixed-top navbar-expand-lg navbar-light">
-            <NavLink className="navbar-brand" href="#">H. P. World</NavLink>
+            <Link className="navbar-brand" to="/">H. P. World</Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarSupportedContent" >
                 <ul className="navbar-nav ml-auto w-100 justify-content-end">
-                    <li class="nav-item">
-                        <NavLink to="/houses" className="nav-link" >Houses</NavLink>
+                    <li className="nav-item">
+                        <Link to="/houses" className="nav-link" >Houses</Link>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/spells" className="nav-link" >Spells</NavLink>
+                        <Link to="/spells" className="nav-link" >Spells</Link>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/characters" className="nav-link" >Characters</NavLink>
+                        <Link to="/characters" className="nav-link" >Characters</Link>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/" className="nav-link" >Home</NavLink>
+                        <Link to="/" className="nav-link" >Home</Link>
                     </li>
                 </ul>
             </div>
