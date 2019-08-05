@@ -19,7 +19,8 @@ export const getSpells = () => async dispatch => {
     dispatch({type: 'GET_SPELLS', payload: result})
 };
 
-export const hetCharacters = () => async dispatch => {
+export const getCharacters = () => async dispatch => {
     const response = await hp_api.get('/characters');
-    dispatch({type: 'GET_CHARACTERS', payload: response});
+    const result = response.data;
+    dispatch({type: 'GET_CHARACTERS', payload: result});
 };

@@ -1,6 +1,11 @@
 import React from 'react';
+import {connect} from 'react-redux';
+import {getCharacters} from '../actions';
 
 class Characters extends React.Component {
+    componentDidMount() {
+        this.props.getCharacters();
+    };
     render() {
         return(
             <div>
@@ -17,6 +22,8 @@ class Characters extends React.Component {
     };
 }
 
+const mapStateToProps = (state) => {
+    return {characters: state.characters}
+};
 
-
-export default Characters;
+export default connect(mapStateToProps, {getCharacters}) (Characters);
