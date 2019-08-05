@@ -10,7 +10,14 @@ class Spells extends React.Component {
 
     render() {
         return(
-            <div>Spells</div>
+            <div className="container">
+                <div className="page-header">
+                    <h2>List of spells</h2>
+                </div>
+                <div className="page-list">
+                    
+                </div>
+            </div>
         );
     };
 }
