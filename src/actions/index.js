@@ -10,3 +10,11 @@ export const getHouses = () => async dispatch => {
     const result = response.data;
     dispatch({type: 'GET_HOUSES', payload: result})
 };
+
+export const getSpells = () => async dispatch => {
+    const response = await harryPAPI.get('/spells', {
+        params: {key: api_key}
+    });
+    const result = response.data;
+    dispatch({type: 'GET_SPELLS', payload: result})
+};
