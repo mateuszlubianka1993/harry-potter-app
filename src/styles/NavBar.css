@@ -1,0 +1,17 @@
+.app-nav {
+    background-color: rgba(87,27,47,0.8);
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #F9F2F6;
+    transition: all 0.3s ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #d7d0d4;
+}
+.navbar-light .navbar-brand {
+    color: #F9F2F6;
+    transition: all 0.3s ease-in-out;
+}
+.navbar-light .navbar-brand:hover {
+    color: #d7d0d4;
+}

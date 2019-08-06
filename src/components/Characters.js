@@ -15,8 +15,8 @@ class Characters extends React.Component {
                 <div className="card" key={character.name} style={{width: '350px'}}>
                     <img src={character.image} className="card-img-top" alt="character"/>
                     <div className="card-body">
-                        <h5 className="card-title">{`${character.name} `}<span class="badge badge-secondary">{character.species}</span></h5>
-                        <h6>{`House: ${character.house} `}<span class="badge badge-secondary">{character.hogwartsStudent ? 'student' : 'staff'}</span></h6>
+                        <h5 className="card-title">{`${character.name} `}<span className="badge badge-secondary">{character.species}</span></h5>
+                        <h6>{`House: ${character.house} `}<span className="badge badge-secondary">{character.hogwartsStudent ? 'student' : 'staff'}</span></h6>
                         <h6>{character.dateOfBirth}</h6>
                         <p className="card-text">Patronus: {character.patronus}</p>
                         <p className="card-text">Actor: {character.actor}</p>

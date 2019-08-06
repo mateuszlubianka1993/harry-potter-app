@@ -3,5 +3,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    background-color: #1B2540;
+    color: #F9F2F6;
 }

@@ -1,9 +1,10 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import '../styles/NavBar.css';
 
 const NavBar = () => {
     return(
-        <nav id="main-nav" className="navbar fixed-top navbar-expand-lg navbar-light">
+        <nav id="main-nav" className="navbar fixed-top navbar-expand-lg navbar-light app-nav">
             <Link className="navbar-brand" to="/">H. P. World</Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
