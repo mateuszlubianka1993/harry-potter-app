@@ -1,0 +1,9 @@
+.character-card {
+    width: 350px;
+    margin-bottom: 15px;
+    background-color: #F9F2F6;
+    color: #1B2540;
+}
+.character-badge {
+    background-color: #571B2F;
+}
