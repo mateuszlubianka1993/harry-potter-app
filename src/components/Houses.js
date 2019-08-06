@@ -1,6 +1,7 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import {getHouses} from '../actions';
+import '../styles/page.css';
 
 class Houses extends React.Component {
 

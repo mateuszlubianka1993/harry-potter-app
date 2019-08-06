@@ -1,6 +1,7 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import {getSpells} from '../actions';
+import '../styles/page.css';
 
 class Spells extends React.Component {
 

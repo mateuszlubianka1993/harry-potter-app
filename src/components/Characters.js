@@ -1,6 +1,7 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import {getCharacters} from '../actions';
+import '../styles/page.css';
 
 class Characters extends React.Component {
     componentDidMount() {
