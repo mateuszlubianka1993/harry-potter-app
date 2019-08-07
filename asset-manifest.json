@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/harry-potter-app/static/css/main.e3367a29.chunk.css",
+    "main.js": "/harry-potter-app/static/js/main.b179f419.chunk.js",
+    "main.js.map": "/harry-potter-app/static/js/main.b179f419.chunk.js.map",
+    "runtime~main.js": "/harry-potter-app/static/js/runtime~main.5e027c50.js",
+    "runtime~main.js.map": "/harry-potter-app/static/js/runtime~main.5e027c50.js.map",
+    "static/js/2.b12e8062.chunk.js": "/harry-potter-app/static/js/2.b12e8062.chunk.js",
+    "static/js/2.b12e8062.chunk.js.map": "/harry-potter-app/static/js/2.b12e8062.chunk.js.map",
+    "index.html": "/harry-potter-app/index.html",
+    "precache-manifest.9d730ef3dc22204c2ea716e20d637905.js": "/harry-potter-app/precache-manifest.9d730ef3dc22204c2ea716e20d637905.js",
+    "service-worker.js": "/harry-potter-app/service-worker.js",
+    "static/css/main.e3367a29.chunk.css.map": "/harry-potter-app/static/css/main.e3367a29.chunk.css.map",
+    "static/media/Home.css": "/harry-potter-app/static/media/b-k-HAl6CKxM3xU-unsplash-sm.f7b1d263.jpg"
+  }
+}
