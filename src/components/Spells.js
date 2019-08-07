@@ -14,11 +14,11 @@ class Spells extends React.Component {
         const {spells} = this.props;
         const spellsList = spells.map(spell=>{
             return(
-                <div class="card spell-card" key={spell._id}>
-                    <div class="card-body">
-                        <h5 class="card-title spell-name">{spell.spell}</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Type: {spell.type}</h6>
-                        <p class="card-text">Effect: {spell.effect}</p>
+                <div className="card spell-card" key={spell._id}>
+                    <div className="card-body">
+                        <h5 className="card-title spell-name">{spell.spell}</h5>
+                        <h6 className="card-subtitle mb-2 text-muted">Type: {spell.type}</h6>
+                        <p className="card-text">Effect: {spell.effect}</p>
                     </div>
                 </div>
             );
