@@ -7,3 +7,9 @@
 .character-badge {
     background-color: #571B2F;
 }
+
+@media (min-width: 570px) and (max-width: 992px) {
+    .character-card {
+        width: 400px;
+    }
+}
