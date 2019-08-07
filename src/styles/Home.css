@@ -1,0 +1,19 @@
+.home-container {
+    background-image: url('../img/b-k-HAl6CKxM3xU-unsplash-sm.jpg');
+    background-size: cover;
+    height: 80vh;
+    padding: 0;
+    color: #F9F2F6;
+}
+.mask {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(27,43,47,0.7);
+    padding: 50px;
+}
+.home-header {
+    color: #F9F2F6;
+}
+.content-txt {
+    text-align: justify;
+}
